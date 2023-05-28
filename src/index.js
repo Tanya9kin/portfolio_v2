@@ -1,10 +1,17 @@
 import React from "react";
 import App from "./App";
-import { createRoot } from "react-dom/client";
+import * as ReactDOMClient from "react-dom/client";
 
-// Rendering code here
+const rootNode = document.createElement("div");
+rootNode.id = "root";
+document.body.appendChild(rootNode);
+const root = ReactDOMClient.createRoot(document.getElementById("root"));
 
-const domNode = document.getElementById("root");
-const root = createRoot(domNode);
+// const domNode = document.getElementById("root");
+// const root = createRoot(domNode);
 
-root.render(<App />);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
