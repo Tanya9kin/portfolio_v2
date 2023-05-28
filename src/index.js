@@ -7,9 +7,6 @@ rootNode.id = "root";
 document.body.appendChild(rootNode);
 const root = ReactDOMClient.createRoot(document.getElementById("root"));
 
-// const domNode = document.getElementById("root");
-// const root = createRoot(domNode);
-
 root.render(
   <React.StrictMode>
     <App />
