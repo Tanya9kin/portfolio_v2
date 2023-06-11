@@ -3,13 +3,14 @@ export default function Misc() {
     <div>
       <h3>Soft Skills:</h3>
       <ul>
+        <li>Creative</li>
         <li>Self learner</li>
         <li>Good communicator</li>
+        <li>Big Picture Thinker</li>
         <li>Team player</li>
-        <li>Creative</li>
+        <li>Motivator</li>
         <li>Organized</li>
         <li>Curious</li>
-        <li>Big Picture Thinker</li>
       </ul>
       <h3>Languages:</h3>
       <ul>
