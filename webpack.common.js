@@ -11,6 +11,12 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.jsx$/,
+        use: {
+          loader: "jsx-loader?harmony",
+        },
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
