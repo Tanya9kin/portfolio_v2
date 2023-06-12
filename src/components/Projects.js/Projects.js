@@ -1,7 +1,7 @@
 import { Paper } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2.js";
 
-import { projects } from "../../resources/data.js";
+import { projects } from "../../data.js";
 import Project from "./Project.js";
 
 export default function Projects() {
