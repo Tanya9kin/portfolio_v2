@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import { ThemeProvider, createTheme } from "@mui/material";
-import profile_picture from "../../resources/profile-picture.jpg";
+// import profile_picture from "../../resources/profile-picture.jpg";
 import {
   Paper,
   Card,
@@ -38,7 +38,7 @@ export default function Header() {
             boxShadow: 6,
             marginBottom: 1,
           }}
-          src={profile_picture}
+          // src={profile_picture}
           alt="Profile Picture"
         ></Grid>
         <Grid item="true" xs={11} sm={10} md={6} lg={5}>
