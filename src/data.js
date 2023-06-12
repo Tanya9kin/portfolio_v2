@@ -1,7 +1,7 @@
-import breakpointImage from "./resources/Breakpoint_feature.png";
-import grutImage from "./resources/ic_launcher-web.png";
-import weddingImage from "./resources/invitation.png";
-import portfolioV1Image from "./resources/portfolioV1.png";
+// import breakpointImage from "./resources/Breakpoint_feature.png";
+// import grutImage from "./resources/ic_launcher-web.png";
+// import weddingImage from "./resources/invitation.png";
+// import portfolioV1Image from "./resources/portfolioV1.png";
 
 const categories = ["Personal", "University"];
 
@@ -32,7 +32,8 @@ export const projects = [
     "Wedding Invitation",
     categories[0],
     2023,
-    weddingImage,
+    // weddingImage,
+    null,
     "https://github.com/Tanya9kin/wedding-invite",
     "https://tanyandaniel.netlify.app/",
     "Digital wedding invitation made using React, deployed on Nelify. With the ability to RSVP from the site, the backend is using the Netlify built in form recognition.",
@@ -42,7 +43,8 @@ export const projects = [
     "Portfolio V1",
     categories[0],
     2023,
-    portfolioV1Image,
+    // portfolioV1Image,
+    null,
     "https://github.com/Tanya9kin/portfolio",
     "https://tanyadeveykin.netlify.app/",
     "First Version of portfolio made using the knowledge of HTML, CSS and JS I knew at the time.",
@@ -52,7 +54,8 @@ export const projects = [
     "BreakPoint",
     categories[1],
     2018,
-    breakpointImage,
+    // breakpointImage,
+    null,
     null,
     "https://drive.google.com/file/d/1UZVXgDEq7BIr8WTecf35kNU6u5sfPC5u/view?usp=sharing",
     "An android app developed for a coffee spot at the CS faculty at the Technion",
@@ -62,7 +65,8 @@ export const projects = [
     "GRUT",
     categories[1],
     2019,
-    grutImage,
+    // grutImage,
+    null,
     "https://github.com/Tanya9kin/GRUT",
     "https://drive.google.com/file/d/1rRUSxhkSI2pSmSEJKsmqNqrWCbtwp5Bt/view?usp=sharing",
     "GRUT is an IoT project, it is a robot that drives around checking how plants are doing via different sensors attached to it. It then sends the data to a server on Azure that updates an Android app about the walefatre of the plants.",
