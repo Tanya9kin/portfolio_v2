@@ -1,7 +1,7 @@
-import breakpointImage from "../resources/Breakpoint_feature.png";
-import grutImage from "../resources/ic_launcher-web.png";
-import weddingImage from "../resources/invitation.png";
-import portfolioV1Image from "../resources/portfolioV1.png";
+import breakpointImage from "./resources/Breakpoint_feature.png";
+import grutImage from "./resources/ic_launcher-web.png";
+import weddingImage from "./resources/invitation.png";
+import portfolioV1Image from "./resources/portfolioV1.png";
 
 const categories = ["Personal", "University"];
 
